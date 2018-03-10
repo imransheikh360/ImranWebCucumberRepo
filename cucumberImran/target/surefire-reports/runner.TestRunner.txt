@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 4, Skipped: 7, Time elapsed: 24.498 s <<< FAILURE! - in runner.TestRunner
+Then Enter product name(Scenario: Create CRM product)  Time elapsed: 0.01 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-SLJLP92', ip: '10.2.239.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\IMRAN\AppData\Local\Temp\rust_mozprofile.BvTuJs0dQCIQ, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=10.0, moz:processID=6580.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 324c7926-aaf6-49ed-8f96-2d0f6a8f182e
+*** Element info: {Using=xpath, value=//input[@name='name']}
+
+Scenario: Create CRM product  Time elapsed: 0.012 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-SLJLP92', ip: '10.2.239.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\IMRAN\AppData\Local\Temp\rust_mozprofile.BvTuJs0dQCIQ, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=10.0, moz:processID=6580.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 324c7926-aaf6-49ed-8f96-2d0f6a8f182e
+*** Element info: {Using=xpath, value=//input[@name='name']}
+
+Given User should be on product screen(Scenario: Delete CRM product)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Delete CRM product  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+

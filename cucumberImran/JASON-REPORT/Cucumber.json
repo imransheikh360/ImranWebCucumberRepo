@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Create CRM product",
+        "description": "",
+        "id": "create-product-in-free-crm;create-crm-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9373745376,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be on login screen",
+            "match": {
+              "location": "LoginStepDefinition.invokeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 651019141,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#When Login into application \"imrans\" and \"360logica\""
+              }
+            ],
+            "line": 7,
+            "name": "Login into application \"imrans\" and \"360logica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imrans",
+                  "offset": 24
+                },
+                {
+                  "val": "360logica",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.login_into_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6096195888,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that user on home screen",
+            "match": {
+              "location": "LoginStepDefinition.verify_that_user_on_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3093389224,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on product",
+            "match": {
+              "location": "LoginStepDefinition.click_on_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125529632,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on New Product button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_New_Product_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 895267021,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter \"TestProduct\" product name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestProduct",
+                  "offset": 7
+                }
+              ],
+              "location": "LoginStepDefinition.enter_product_name(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155649950,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter cost",
+            "match": {
+              "location": "LoginStepDefinition.enter_cost()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135230257,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter retail value",
+            "match": {
+              "location": "LoginStepDefinition.enter_retail_value()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101423860,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter wholesale price",
+            "match": {
+              "location": "LoginStepDefinition.enter_wholesale_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 200623755,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter description",
+            "match": {
+              "location": "LoginStepDefinition.enter_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49267777,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on save button",
+            "match": {
+              "location": "LoginStepDefinition.click_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1202655507,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify that product is created",
+            "match": {
+              "location": "LoginStepDefinition.verify_that_product_is_created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72988192,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "logout from application",
+            "match": {
+              "location": "LoginStepDefinition.logout_from_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 264658708,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Delete CRM product",
+        "description": "",
+        "id": "create-product-in-free-crm;delete-crm-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8499486814,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should be on login screen",
+            "match": {
+              "location": "LoginStepDefinition.invokeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612917373,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 27,
+                "value": "#When Login into application \"imrans\" and \"360logica\""
+              }
+            ],
+            "line": 28,
+            "name": "Login into application \"imrans\" and \"360logica\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imrans",
+                  "offset": 24
+                },
+                {
+                  "val": "360logica",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepDefinition.login_into_application(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6322781285,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify that user on home screen",
+            "match": {
+              "location": "LoginStepDefinition.verify_that_user_on_home_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3100493125,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on product",
+            "match": {
+              "location": "LoginStepDefinition.click_on_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3364493555,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Delete the \"TestProduct\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestProduct",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinition.click_on_delete_button_againt_created_product(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1092478551,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Product in Free CRM",
+    "description": "",
+    "id": "create-product-in-free-crm",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
