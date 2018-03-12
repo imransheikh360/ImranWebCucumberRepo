@@ -25,7 +25,8 @@ public class LoginStepDefinition {
 
 	@Given("^User should be on login screen$")
 	public void invokeBrowser() {
-		System.setProperty("webdriver.gecko.driver", "D:\\ProjectWorkspace\\cucumberImran\\cucumberImran\\drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\CucumberGitRepository\\cucumberImran\\drivers\\geckodriver.exe");
+		//C:\CucumberGitRepository\cucumberImran\drivers\geckodriver.exe
 		driver =new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);

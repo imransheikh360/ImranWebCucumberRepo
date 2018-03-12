@@ -13,6 +13,7 @@ import java.util.Properties;
 	        try{         	  
 		          Properties prop = new Properties();
 		          File f = new File(path + "//src//main//java//config//configuration.properties");
+		          //C:\CucumberGitRepository\cucumberImran\src\main\java\config\configuration.propertie
 		          if(f.exists()){
 			          prop.load(new FileInputStream(f));
 			          value = prop.getProperty(key); 	

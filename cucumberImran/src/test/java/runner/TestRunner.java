@@ -8,7 +8,8 @@ import util.PropertyReader;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\ProjectWorkspace\\cucumberImran\\cucumberImran\\src\\main\\java\\featureFile"
+		features = "C:\\CucumberGitRepository\\cucumberImran\\src\\main\\java\\featureFile"
+				//C:\CucumberGitRepository\cucumberImran\src\main\java\featureFile
 		,glue={"stepDefinition"},
 				//D:\ProjectWorkspace\cucumberImran\cucumberImran\src\test\java\stepDefinition
 		//plugin= {"pretty", "html:HTML-REPORT", "json:JASON-REPORT/Cucumber.json","junit:XML-REPORT/Cucumber.xml" },
